@@ -1,6 +1,11 @@
+import Home from "./components/pages/Home";
+
 const App = () => {
   return (
-    <div className="text-2xl text-red-500 font-bold   text-center">App</div>
+    <div className="pt-20">
+     <Home />
+    
+    </div>
   );
 };
 
