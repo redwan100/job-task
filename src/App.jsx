@@ -1,5 +1,6 @@
-import Home from "./components/pages/Home";
+
 import Navbar from "./components/shared/Navbar";
+import Home from "./pages/Home";
 
 const App = () => {
   return (

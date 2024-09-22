@@ -1,10 +1,11 @@
-import Bitcoin from "../bitcoin/Bitcoin"
+import Bitcoin from "../components/bitcoin/Bitcoin"
+import Team from "../components/team/Team"
 
 const Home = () => {
   return (
     <div className="max-w-[1040px] mx-auto w-full px-3">
     <Bitcoin />
-   
+    <Team />
     </div>
   )
 }
