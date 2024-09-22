@@ -1,0 +1,4 @@
+// .prettierrc
+{
+  "tailwindConfig": "./styles/tailwind.config.js"
+}
