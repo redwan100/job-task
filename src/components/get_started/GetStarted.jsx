@@ -3,8 +3,8 @@ import arrow from '../../assets/arrow-right.png'
 import TrendingCoins from './TrendingCoins'
 const GetStarted = () => {
   return (
-    <div>
-        <div className="bg-primary max-w-sm w-full mx-auto rounded-xl px-4 py-8 space-y-6">
+    <div className='space-y-3'>
+        <div className="bg-primary w-full mx-auto rounded-xl px-4 py-8 space-y-6">
             <h2 className='text-center text-white font-bold text-2xl'>Get Started with KoinX for FREE</h2>
             <p className='text-gray-200'>With our range of features that you can equip for free,
             KoinX allows you to be more educated and aware of your tax reports.</p>

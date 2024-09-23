@@ -20,7 +20,7 @@ const TradingViewChart = () => {
         "toolbar_bg": "#000000",
         "enable_publishing": false,
         "hide_side_toolbar": true,
-        "allow_symbol_change": true,
+        "allow_symbol_change": false,
           "hide_volume": true,
         "studies": [],
         "withdateranges": true,
@@ -32,12 +32,12 @@ const TradingViewChart = () => {
   }, []);
 
   return (
-   <>
+   <div className='bg-white rounded-md overflow-hidden'>
    <BitcoinPrice />
     <div id="tradingview_btcusd_chart">
       
     </div>
-   </>
+   </div>
   );
 };
 

@@ -1,7 +1,8 @@
+import HoldingBitcoin from "./HoldingBitcoin"
 
 const AboutBitcoin = () => {
   return (
-    <div className='w-full bg-white'>
+    <div className='w-full bg-white rounded-md p-4'>
         <div className="">
             <h2 className='text-2xl font-semibold mb-4'>About Bitcoin</h2>
             <div className="border-b">
@@ -38,6 +39,7 @@ const AboutBitcoin = () => {
                </p>
             </div>
         </div>
+        <HoldingBitcoin />
     </div>
   ) 
 }

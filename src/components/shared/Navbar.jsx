@@ -21,7 +21,7 @@ const menus =[
 const Navbar = () => {
   return (
     <div className="w-full bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
-        <div className="max-w-[1040px] w-full mx-auto py-4 px-3 flex items-center justify-between">
+        <div className="max-w-[1140px] w-full mx-auto py-4 px-3 flex items-center justify-between">
            <img src={logo} alt="logo" />
            <div className='hidden md:block'>
             <ul className='flex items-center gap-4'>
