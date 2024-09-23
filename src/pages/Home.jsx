@@ -1,9 +1,9 @@
 import AboutBitcoin from "../components/bitcoin/AboutBitcoin"
 import TradingViewChart from "../components/bitcoin/charts/TradingViewChart"
 import GetStarted from "../components/get_started/GetStarted"
+import SentimentSlider from "../components/slider/SentimentSlider"
 import Team from "../components/team/Team"
 import Tokenomic from "../components/tokenomics/Tokenomic"
-
 
 const Home = () => {
   return (
@@ -17,7 +17,8 @@ const Home = () => {
     </div>
      
      {/* TODO: Performance */}
-     {/* TODO: Student */}
+     {/* TODO: Sentiment */}
+     <SentimentSlider />
      <div className="my-4">
       <AboutBitcoin />
      </div>
