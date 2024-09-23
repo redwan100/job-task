@@ -1,8 +1,9 @@
 import AnalystEstimates from "../components/analystEstimates/AnalystEstimates"
 import AboutBitcoin from "../components/bitcoin/AboutBitcoin"
 import TradingViewChart from "../components/bitcoin/charts/TradingViewChart"
-import FavTrandingCoin from "../components/FavTrandingCoins/FavTrandingCoin"
+import TradingCoin from "../components/FavTradingCoins/TradingCoin"
 import GetStarted from "../components/get_started/GetStarted"
+
 import Team from "../components/team/Team"
 import Tokenomic from "../components/tokenomics/Tokenomic"
 
@@ -39,7 +40,7 @@ const Home = () => {
      
    
     <div className="my-3">
-        <FavTrandingCoin />
+        <TradingCoin />
       </div>
     </div>
   </div>
