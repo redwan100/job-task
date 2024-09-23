@@ -74,7 +74,7 @@ export default function SentimentSlider() {
   }, [nextSlide])
 
   return (
-    <div className="relative w-full bg-white p-4">
+    <div className="relative w-full bg-white">
         <div className='space-y-1 mb-2'>
             <h1 className='text-xl font-semibold'>Sentiment</h1>
         <p className='text-sm font-medium flex items-center gap-1'>Key Events <img src={info} alt="info icon" className='size-4' /></p>
@@ -103,7 +103,7 @@ export default function SentimentSlider() {
       </div>
      
 
-    
+
 
     </div>
   )
